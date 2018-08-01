@@ -1,0 +1,35 @@
+{
+  "name": "postcss-base64",
+  "version": "0.0.0",
+  "description": "PostCSS plugin convert background imgs to inline base64 string.",
+  "keywords": [
+    "postcss",
+    "css",
+    "postcss-plugin",
+    "base64"
+  ],
+  "author": "gengze <gengze@meituan.com>",
+  "license": "MIT",
+  "repository": "AndreGeng/postcss-base64",
+  "bugs": {
+    "url": "https://github.com/AndreGeng/postcss-base64/issues"
+  },
+  "homepage": "https://github.com/AndreGeng/postcss-base64",
+  "dependencies": {
+    "postcss": "^6.0.16"
+  },
+  "devDependencies": {
+    "eslint": "^4.19.1",
+    "eslint-config-airbnb-base": "^13.0.0",
+    "eslint-config-postcss": "^2.0.2",
+    "eslint-plugin-import": "^2.13.0",
+    "gulp": "^3.9.1",
+    "jest": "^22.4.2"
+  },
+  "scripts": {
+    "test": "jest && eslint *.js"
+  },
+  "jest": {
+    "testEnvironment": "node"
+  }
+}
