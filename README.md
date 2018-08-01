@@ -8,13 +8,13 @@
 
 ```css
 .foo {
-    /* Input example */
+  background: 'b64--- img/test.png ---';
 }
 ```
 
 ```css
 .foo {
-  /* Output example */
+  background: 'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKBAMAAAB/HNKOAAAAGFBMVEXMzMyWlpajo6O3t7fFxcWcnJyxsbG+vr50Rsl6AAAACXBIWXMAAA7EAAAOxAGVKw4bAAAAJklEQVQImWNgwADKDAwsAQyuDAzMAgyMbOYMAgyuLApAUhnMRgIANvcCBwsFJwYAAAAASUVORK5CYII=';
 }
 ```
 
